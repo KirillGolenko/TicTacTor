@@ -13,6 +13,9 @@ export class Game {
 
   @Prop()
   first_player: string;
+
+  @Prop()
+  board: Array<string>;
 }
 
 export const GameSchema = SchemaFactory.createForClass(Game);

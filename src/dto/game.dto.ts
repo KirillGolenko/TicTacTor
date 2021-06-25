@@ -9,4 +9,7 @@ export class CreateGameDto {
 
   @IsNotEmpty()
   first_player: string;
+
+  @IsNotEmpty()
+  board: Array<string>;
 }
